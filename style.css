@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 10vh;
+}
+
+
+.yt-logo{
+    height: auto; 
+    max-width: 50px;
+}
+.yt-text{
+    color: white;
+    
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.links div,
+.links a {
+    margin-right: 20px; /* Adjust the value as needed */
+}
+
+.links{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_dark-mode img{
+    height: auto; 
+    max-width: 40px;
+    background-color: aliceblue;
+    border-radius: 50% 50%;
+}
+
+.links_github img{
+    height: auto; 
+    max-width: 40px;
+    background-color: aliceblue;
+    border-radius: 50% 50%;
+}
